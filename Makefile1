@@ -1,0 +1,2 @@
+run: tsp.h tsp.cpp application.cpp
+	mpic++ -o run application.cpp tsp.cpp -lm
